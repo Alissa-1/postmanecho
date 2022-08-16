@@ -21,7 +21,7 @@ public class testV2 {
                 .post("/post")
 // Проверки
                 .then()
-                .body("data.store.book", hasSize(41))
+                .body("data.store.book", hasSize(4))
         ;
     }
 }

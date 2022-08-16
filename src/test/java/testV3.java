@@ -21,7 +21,7 @@ public class testV3 {
                 .post("/post")
 // Проверки
                 .then()
-                .body("data.store.book.author.last()", equalTo("J. R. R. Tolkieng"))
+                .body("data.store.book.author.last()", equalTo("J. R. R. Tolkien"))
         ;
     }
 }
